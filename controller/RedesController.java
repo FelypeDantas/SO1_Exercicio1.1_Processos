@@ -41,7 +41,7 @@ public class RedesController {
 			
 			if(os().contains("100")) {
 				StringBuffer nbuffer = new StringBuffer();
-				nbuffer.append("cmd /c");
+				nbuffer.append("cd /home");
 				nbuffer.append(" ");
 				nbuffer.append(process);
 				try {
